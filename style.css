@@ -1,0 +1,153 @@
+*{text-align: center;
+     margin: 0;
+     padding: 0;
+     flex-wrap: wrap;
+
+}
+
+#headDiv{
+background-color: red;
+height: 50px;
+width: 100%;
+padding: 8px 0 21px 0;
+position: fixed;
+}
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+border: white 5px solid;
+border-radius: 30px;
+display: inline-block;
+padding: 7px;
+}
+
+#bannerImg{
+height: 700px;
+width: 100%;
+margin: -4px
+}
+
+
+
+#welcomeParagraph{
+font-size: 55px;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+#marioClub{
+font-size: 80px;
+ color: white;
+ font-family:-webkit-pictograph;
+ font-weight: bold;
+
+}
+
+#links{
+background-color: rgb(230, 230, 230);
+height: 35px;
+width: 100%;
+padding: 10px 50px;
+position: sticky;
+top: 78px;
+
+}
+
+#linksTable{
+margin: 5px auto 5px auto ;
+}
+
+a{margin: 70px;
+  color: black;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;}
+
+a:hover{text-decoration: underline;}
+
+#para1{
+    text-align: center;
+    width: 920px;
+    margin: 90px auto 0 auto;
+    
+    
+}
+
+#Title{
+margin-top: 50px;
+margin-bottom: 30px;
+color: red;
+font-size: 45px;
+font-weight: bold;
+text-align: left;
+}
+
+#paragraph{
+    text-align: left;
+    font-size: 25px;
+}
+
+#thumbnailDiv{
+padding: 10px;
+margin: 75px;
+}
+
+.thumbnail{
+display: inline-block;
+margin: auto 38px auto 38px;
+width: 350px;
+}
+
+.thumbnail:hover{position: relative;
+bottom: 15px;
+}
+
+#join{
+margin: 91px -2px 0px;
+background-color: rgb(226, 226, 226);
+height: 250px;
+width: 100% ;
+padding: 45px 0 0 0;
+}
+
+#join2{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#join3{
+  margin: 35px;
+  font-size: 17px;
+}
+
+#join4{
+  font-size: 22px;
+  width: 292px;
+  height: 66px;
+  border-radius: 60px
+}
+
+#join4:focus{
+  font-size: 22px;
+  width: 292px;
+  height: 66px;
+  border: black 3px dashed;
+  border-radius: 60px
+}
+
+#joinTodayInput:valid{border: 3px green solid;}
+
+footer{
+background-color: red;
+height: 50px;
+width: 100%;
+padding: 19px 0 0 0;
+}
+
+#footer{
+color: white;
+font-size: 20px;
+}
